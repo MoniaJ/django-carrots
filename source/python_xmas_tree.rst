@@ -1,6 +1,6 @@
-==================
-  Christmas Tree
-==================
+====================================
+Christmas Exercises
+====================================
 
 Christmas are coming, Christmas presents time and, at least for Christmas trees :) in every shopping center. As an exercise, we will try to draw a tree in the
 console.
