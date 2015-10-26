@@ -22,6 +22,8 @@ Table of Contents
    python_objects
    python_loops
    python_xmas_tree
+   flask_quickstart
+   flask_exercises
    django_in_action
    django_models
    django_views
