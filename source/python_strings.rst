@@ -203,7 +203,7 @@ With string there is a lot of methods implemented already.
 There is over 10 more methods but they are much more advanced.
 
 Exercises
-==============
+-------------------
 
 Obligatory task
 -------------------
@@ -235,7 +235,7 @@ For example
 
 
 Summary
-=======
+-------------------
 
 We also know now that indentations can be important, especially when we want to use
 the instruction :keyword:`if` (also in connection with :keyword:`else` and :keyword:`elif`).
