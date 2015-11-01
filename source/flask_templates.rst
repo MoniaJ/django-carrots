@@ -10,7 +10,8 @@ We want the home page of our app to have a heading that welcomes the logged in u
 
 An easy option to output a nice and big heading would be to change our view function to output HTML, maybe something like this:
 
-.. code-block::
+.. code-block:: python
+
 
     from app import app
 
@@ -42,7 +43,8 @@ If you could keep the logic of your application separate from the layout or pres
 
 Let's write our first template file app/templates/index.html:
 
-.. code-block::
+.. code-block:: html
+
 
     <html>
       <head>
@@ -60,7 +62,8 @@ Now let's see how we use this template from our view function (file app/views.py
 
 from flask import render_template
 
-.. code-block::
+.. code-block:: python
+
 
     @app.route('/')
     @app.route('/index')
@@ -79,7 +82,7 @@ Control statements in templates
 ------------------------------------------------
 The Jinja2 templates also support control statements, given inside {%...%} blocks. Let's add an if statement to our template (file app/templates/index.html):
 
-.. code-block::
+.. code-block:: html
 
     <html>
       <head>
@@ -103,7 +106,8 @@ The logged in user in our App application will probably want to see some lists, 
 
 Lets thing about a blog in that case.
 
-.. code-block::
+.. code-block:: python
+
 
     @app.route('/')
     @app.route('/index')
@@ -135,7 +139,8 @@ The template cannot make any assumptions about the number of posts, so it needs 
 
 So let's see how we do this using a for control structure (file app/templates/index.html):
 
-.. code-block::
+.. code-block:: html
+
 
     <html>
       <head>
@@ -176,7 +181,8 @@ page layout that are common to all templates and put them in a base template fro
 
 So let's define a base template that includes the navigation bar and also the bit of title logic we implemented earlier (file app/templates/_base.html):
 
-.. code-block::
+.. code-block:: html
+
 
     <html>
       <head>
@@ -201,7 +207,8 @@ In this template we use the block control statement to define the place where th
 
 And now what's left is to modify our index.html template to inherit from _base.html (file app/templates/index.html):
 
-.. code-block::
+.. code-block:: html
+
 
     {% extends "_base.html" %}
     {% block content %}

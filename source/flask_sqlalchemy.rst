@@ -29,7 +29,8 @@ as each database is stored in a single file and there is no need to start a data
 
 We have a couple of new configuration items to add to our config file (file config.py):
 
-.. code-block::
+.. code-block:: python
+
 
     import os
     basedir = os.path.abspath(os.path.dirname(__file__))
@@ -42,7 +43,8 @@ The SQLALCHEMY_MIGRATE_REPO is the folder where we will store the SQLAlchemy-mig
 
 Finally, when we initialize our app we also need to initialize our database. Here is our updated package init file (file app/main.py):
 
-.. code-block::
+.. code-block:: python
+
 
     from flask import Flask
     from flask.ext.sqlalchemy import SQLAlchemy
@@ -61,7 +63,8 @@ The id field is usually in all models, and is used as the primary key. Each user
 Luckily this is done automatically for us, we just need to provide the id field.
 The nickname and email fields are defined as strings (or VARCHAR in database jargon), and their maximum lengths are specified so that the database can optimize space usage.
 
-.. code-block::
+.. code-block:: python
+
 
     class User(db.Model):
         id = db.Column(db.Integer, primary_key=True)
@@ -84,7 +87,8 @@ lets write our own set of little Python scripts that invoke the migration APIs.
 
 Here is a script that creates the database (file db_create.py):
 
-.. code-block::
+.. code-block:: python
+
 
     from migrate.versioning import api
     from config import SQLALCHEMY_DATABASE_URI, SQLALCHEMY_MIGRATE_REPO
@@ -113,7 +117,8 @@ Now that we have defined our model, we can incorporate it into our database. We 
 
 To generate a migration I use another little Python helper script (file db_migrate.py):
 
-.. code-block::
+.. code-block:: python
+
 
     import imp
     from migrate.versioning import api
@@ -170,7 +175,8 @@ If you have database migration support, then when you are ready to release the n
 a new migration, copy the migration scripts to your production server and run a simple script that applies the changes for you.
  The database upgrade can be done with this little Python script (file db_upgrade.py):
 
-.. code-block::
+.. code-block:: python
+
 
     from migrate.versioning import api
     from config import SQLALCHEMY_DATABASE_URI
@@ -184,7 +190,8 @@ When you run the above script, the database will be upgraded to the latest revis
 
 It is not a common need to have to downgrade a database to an old format, but just in case, SQLAlchemy-migrate supports this as well (file db_downgrade.py):
 
-.. code-block::
+.. code-block:: python
+
 
     from migrate.versioning import api
     from config import SQLALCHEMY_DATABASE_URI
@@ -217,7 +224,8 @@ Our database design tool shows foreign keys as a link between the foreign key an
 
 Let's modify our models to reflect these changes:
 
-.. code-block::
+.. code-block:: python
+
 
 
     class User(db.Model):

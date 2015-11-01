@@ -5,14 +5,15 @@ while loop
 We discoused the for loop, but there is also a while loop
 
 
-.. code-block::
+.. code-block:: python
 
     while expression:
         statement(s)
 
 Example:
 
-.. code-block::
+.. code-block:: python
+
 
     number = 0
     while (number < 9):
@@ -28,7 +29,8 @@ Such a loop is called an infinite loop.
 
 Example:
 
-.. code-block::
+.. code-block:: python
+
 
     number = 1
     while number:
@@ -45,7 +47,8 @@ Else in while loop:
 
 If the else statement is used with a while loop, the else statement is executed when the condition becomes false.
 
-.. code-block::
+.. code-block:: python
+
 
     number = 0
     while number < 6:

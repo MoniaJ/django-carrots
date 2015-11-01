@@ -126,10 +126,12 @@ for the full story, or check these quick examples:
     >>> list(range(1, 11, 2))
     [1, 3, 5, 7, 9]
 
-.. code-block::
+.. code-block:: python
+
 
     for i in range(10):
         print(i)
+
 
 Updating Lists
 ----------------
@@ -177,7 +179,8 @@ Accessing Values in Dictionary:
 
 To access dictionary elements, you can use the familiar square brackets along with the key to obtain its value. Following is a simple example −
 
-.. code-block::
+.. code-block:: python
+
 
     a_dict = {'Name': 'Martha', 'Age': 21, 'Profession': 'Python Developer'}
     print(a_dict['Name'])
@@ -224,7 +227,8 @@ Nesting
 
 In Python You can create nested objects like:
 
-.. code-block::
+.. code-block:: python
+
 
     ZOO = {
         'animals': {

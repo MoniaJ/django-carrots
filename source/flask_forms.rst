@@ -10,7 +10,8 @@ To handle our web forms we are going to use the Flask-WTF extension, which in tu
 
 Many Flask extensions require some amount of configuration, so we are going to setup a configuration file inside our root app folder so that it is easily accessible if it needs to be edited. Here is what we will start with (file config.py):
 
-.. code-block::
+.. code-block:: python
+
 
     WTF_CSRF_ENABLED = True
     SECRET_KEY = 'you-will-never-guess'
@@ -23,7 +24,8 @@ Now that we have our config file we need to tell Flask to read it and use it. We
 
 from flask import Flask
 
-.. code-block::
+.. code-block:: python
+
 
     app = Flask(__name__)
     app.config.from_object('config')
@@ -39,7 +41,8 @@ The login mechanism that we will support in our app is the standard username/pas
 
 Let's write our first form:
 
-.. code-block::
+.. code-block:: python
+
 
     from flask.ext.wtf import Form
     from wtforms import StringField, PasswordField
@@ -64,7 +67,8 @@ We will also need a template that contains the HTML that produces the form.
 The good news is that the LoginForm class that we just created knows how to render form fields as HTML, so we just need to concentrate on the layout.
 Here is our login template (file app/templates/login.html):
 
-.. code-block::
+.. code-block:: html
+
 
     <!-- extend from base layout -->
     {% extends "base.html" %}
@@ -109,7 +113,8 @@ The final step before we can see our form is to code a view function that render
 This is actually quite simple since we just need to pass a form object to the template. Here is our new view function:
 
 
-.. code-block::
+.. code-block:: python
+
 
     @app.route('/login', methods=['GET', 'POST'])
     def login():
@@ -139,7 +144,8 @@ Receiving form data
 Another area where Flask-WTF makes our job really easy is in the handling of the submitted form data.
  Here is an updated version of our login view function that validates and stores the form data:
 
-.. code-block::
+.. code-block:: python
+
 
     @app.route('/login', methods=['GET', 'POST'])
     def login():
@@ -182,7 +188,8 @@ The flashed messages will not appear automatically in our page, our templates ne
 in a way that works for the site layout. We will add these messages to the base template, so that all our templates inherit this functionality.
 This is the updated base template (file app/templates/_base.html):
 
-.. code-block::
+.. code-block:: html
+
 
     <html>
       <head>
@@ -228,7 +235,8 @@ Improving field validation
 With the app in its current state, forms that are submitted with invalid data will not be accepted.
 Instead, the form will be presented back to the user to correct. This is exactly what we want.
 
-.. code-block::
+.. code-block:: python
+
 
     from flask.ext.wtf import Form
     from wtforms import StringField, PasswordField
@@ -251,7 +259,8 @@ When a field fails validation Flask-WTF adds a descriptive error message to the 
 Here is our login template with field validation messages (file app/templates/login.html):
 
 
-.. code-block::
+.. code-block:: html
+
 
     <!-- extend base layout -->
     {% extends "base.html" %}
