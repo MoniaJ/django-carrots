@@ -1,8 +1,8 @@
 =====================
-Django Carrots Manual
+PyCode Carrots Manual
 =====================
 
-This is a manual to learn Python and Django or Flask. Even if you cannot program yet, you should be able to create your own website by following the manual and doing all the exercises.
+This is a manual to learn Python and Flask. Even if you cannot program yet, you should be able to create your own website by following the manual and doing all the exercises.
 
 The manual is a part of the PyCode Carrots workshop organized by Geek Girls Carrots. You can use it to organize your own workshops or for self-study.
 If you decide to use the manual, we would be grateful if you contact us (however it is optional).
@@ -20,15 +20,15 @@ Table of Contents
    python_logic
    python_strings
    python_objects
-   python_loops
-   python_data
    python_xmas_tree
+   python_data
+   python_loops
    python_exercises
    flask_quickstart
+   flask_templates
+   flask_forms
    flask_exercises
-   django_in_action
-   django_models
-   django_views
+   flask_sqlalchemy
    code_of_conduct
 
 .. going_social

@@ -1,5 +1,5 @@
 ====================================
-Christmas Exercises
+The for loop: Christmas Tree
 ====================================
 
 Christmas are coming, Christmas presents time and, at least for Christmas trees :) in every shopping center. As an exercise, we will try to draw a tree in the
@@ -102,9 +102,7 @@ sequence never includes the end of the specified range.
 
 Then let’s print a larger Christmas tree:
 
-    >>> lst = list(range(1, 11))
-    >>> lst
-    [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    >>> lst = range(1, 11)
     >>> for i in lst:
     ...     print("*"*i)
     *
@@ -120,7 +118,7 @@ Then let’s print a larger Christmas tree:
 
 :func:`range` has saved a lot of our time. We can save even more if we omit naming the list:
 
-    >>> for i in list(range(1, 5)):
+    >>> for i in range(1, 5):
     ...     print(i*"#")
     #
     ##
