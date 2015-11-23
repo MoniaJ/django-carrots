@@ -8,9 +8,9 @@ You can port the game from the python exercises !
 
 Write a simple game against computer that allows you to guess a number from
 
- 1. 1 to 100 in 5 chances
- 2. 1 to 1000 in 7 chances
- 3. User can choose the a or b when he start the game
+1. 1 to 100 in 5 chances
+2. 1 to 1000 in 7 chances
+3. User can choose the a or b when he start the game
 
 After the game there should be information how many games were played, won, lost.
 
