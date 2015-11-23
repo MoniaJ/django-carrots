@@ -9,8 +9,8 @@ You can port the game from the python exercises !
 Write a simple game against computer that allows you to guess a number from
 
  1. 1 to 100 in 5 chances
- 1. 1 to 1000 in 7 chances
- 1. User can choose the a or b when he start the game
+ 2. 1 to 1000 in 7 chances
+ 3. User can choose the a or b when he start the game
 
 After the game there should be information how many games were played, won, lost.
 
@@ -23,16 +23,16 @@ Write a simple application that will allow you to learn basic Japanese words.
 
 There is a file jap_dict.txt provided, your task is to:
 
- 1. copy + past the text or use open(file_name) function to get the data
- 1. change the string to data structure
- 1. ask a question to translate from english to Japanese word or a phrase
- 1. check if it was done correctly if yes don't show this particular one anymore
- 1. inform about how many words were guest and how many are left
- 1. congratulate at the end
+1. copy + past the text or use open(file_name) function to get the data
+2. change the string to data structure
+3. ask a question to translate from english to Japanese word or a phrase
+4. check if it was done correctly if yes don't show this particular one anymore
+5. inform about how many words were guest and how many are left
+6. congratulate at the end
 
 optional:
 
- 1. show the difference in spelling
+7. show the difference in spelling
 
 4. Lest play hangman
 ======================================
