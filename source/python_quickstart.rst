@@ -502,6 +502,10 @@ All arguments are given in parentheses. To specify more than one, separate them 
 Exercises
 ==================
 
+0. Basic BMI
+-----------------
+
+At this pint You should have working BMI calculator.
 
 1. Optimised BMI
 -----------------
@@ -524,6 +528,11 @@ Try to also do it in one line if You did the exercise 1. it should be really eas
 Check out http://docs.python.org for information about eval(). Talk about how dangerous it can be.
 Write a text based input calculator with eval(). That will take for example '2+2*2' and output solution.
 Doing it in one line should be easy for You by this point ;)
+
+4. Other usages
+---------------------
+
+In team think about what else could you create and give as that feedback !
 
 
 Summary

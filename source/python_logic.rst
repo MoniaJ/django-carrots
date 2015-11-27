@@ -279,6 +279,37 @@ immediately::
         print("more")
 
 
+Exercises
+==============
+
+0. Fat or what ? - BMI 2
+-----------------
+
+At this point You should have working BMI calculator that will tell You if you have under or other wight according to table above.
+
+1. Fat or what with sex ? - BMI 2
+-----------------
+
+Add sex dependecy to the BMI calcualtor using this table:
+
+=====================   ==================
+   BMI                    Women
+=====================   ==================
+ < 17,5                    underweight
+ 17,5 – 22,49            normal weight
+ 22,5 – 27,49               overweight
+ ≥ 27,5                     obesity
+=====================   ==================
+
+=====================   ==================
+   BMI                    Men
+=====================   ==================
+ < 19.99                    underweight
+ 20 – 24,99            normal weight
+ 25,0 – 29,99               overweight
+ ≥ 30,0                     obesity
+=====================   ==================
+
 Summary
 =======
 

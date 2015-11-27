@@ -205,7 +205,7 @@ There is over 10 more methods but they are much more advanced.
 Exercises
 -------------------
 
-Obligatory task
+0. Obligatory task
 -------------------
 
 Type in interpreter:
@@ -214,17 +214,17 @@ Type in interpreter:
 
 This is very important library use it wise :)
 
-Method play ground
+1. Method play ground
 -------------------
 
 Create a string and use all methods mentioned above.
 
-Method play ground level 2: Combining string methods
+2. Method play ground level 2: Combining string methods
 ----------------------------------------------------------------------------
 
 Try to use methods as a chain reaction.
 
-Palindrome
+3. Palindrome
 -------------------
 Write (if You can in one line) if the world is a palindrome - a string that reads the same forwards and backwards.
 For example
@@ -232,6 +232,20 @@ For example
 - kayak
 - mr owl ate my metal worm.
 - go hang a salami Im a lasagna hog.
+
+4. BMI 3
+-------------------
+
+Modify the version 2 of BMI calculator so it will give output like that:
+
+Given your wight is 80kg and you are 1.8m tall, your BMI is 22 point so keep it up you are eating healthy.
+
+
+5. BMI 4 AntyTroll Edition
+-------------------
+
+Using BMI calculator form above task add antytrolling mechanism that prevents trolls from:
+1. inputing
 
 
 Summary
