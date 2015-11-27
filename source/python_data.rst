@@ -281,6 +281,6 @@ b - harder one) "name" is "age" old and is working as "occupation". "He/She - ba
 X - MacOS = Black, Linux = White, other = Windows.
 
 3. On dicts you can use few methods. Try out:
-.get(key), .has_key(key), .items(), .keys(), .update(dict_2), .values()
+.get(key), .items(), .keys(), .update(dict_2), .values()
 a) Find out the difference between a_dict[key] and a_dict.get(key)
 b) What a_dict.get(key, 'Python') means, how can it be useful ?
