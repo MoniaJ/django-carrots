@@ -31,7 +31,7 @@ f) congratulate at the end
 optional:
 g) show the difference in spelling
 
-4. Lest play hangman
+4. Lets play hangman
 ======================================
 Create a hangman game in python. User should see the progress of the game
 there is a file with ASCII hangman pictures - hangman.py.

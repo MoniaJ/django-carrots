@@ -58,3 +58,11 @@ If the else statement is used with a while loop, the else statement is executed 
        print(number, " is not less than 6")
 
     print("Finished!")
+
+
+Exercises
+==========================
+
+1. BMI 5 Final
+------------------
+Using loops made user to provide data until it is correct data - extend antytrolling mechanism with loops.

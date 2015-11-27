@@ -427,4 +427,10 @@ acquired up to the moment:
      *****
     *******
 
+Exercises
+==========================
+
+0. Christmas Tree
+------------------
+Create a Christmas tree where user can provide the size of the tree.
 

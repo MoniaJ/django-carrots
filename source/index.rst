@@ -19,11 +19,11 @@ Table of Contents
    python_quickstart
    python_logic
    python_strings
-   python_objects
    python_xmas_tree
-   python_data
    python_loops
+   python_data
    python_exercises
+   python_objects
    flask_quickstart
    flask_templates
    flask_forms
