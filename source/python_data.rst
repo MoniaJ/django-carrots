@@ -278,21 +278,18 @@ Compare the solutions across the group and ask the Mentor which one is the best 
 
 Create the best solution.
 
-2.
+2. Sentences
 
-Remember how You can format a string using ''.format() ? Ask mentor about
-magic ** dictionary unpack and write a scrip that will print out a sentence for each team member (in "" should be data from the 1. exercise):
+Remember how You can format a string using ''.format() ? Ask mentor about magic ** dictionary unpack and write a scrip that will print out a sentence for each team member (in "" should be data from the 1. exercise):
 
-a) "name" is "age" old and is working as "occupation". "name" prefers "fav_mouse_color_point" mouse pointer.
+Option a) "name" is "age" old and is working as "occupation". "name" prefers "fav_mouse_color_point" mouse pointer.
 
-b - harder one) "name" is "age" old and is working as "occupation". "He/She - based on gender" prefers "x" operating system.
+Option b) (harder) "name" is "age" old and is working as "occupation". "He/She - based on gender" prefers "x" operating system:  MacOS = Black, Linux = White, other = Windows.
 
-X - MacOS = Black, Linux = White, other = Windows.
+3. On dicts you can use few methods.
 
-3. On dicts you can use few methods. Try out:
+Try out: .get(key), .has_key(key), .items(), .keys(), .update(dict_2), .values()
 
-.get(key), .has_key(key), .items(), .keys(), .update(dict_2), .values()
+Option a) Find out the difference between a_dict[key] and a_dict.get(key)
 
-a) Find out the difference between a_dict[key] and a_dict.get(key)
-
-b) What a_dict.get(key, 'Python') means, how can it be useful?
+Option b) What a_dict.get(key, 'Python') means, how can it be useful?
