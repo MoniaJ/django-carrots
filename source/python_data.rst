@@ -286,7 +286,7 @@ Option a) "name" is "age" old and is working as "occupation". "name" prefers "fa
 
 Option b) (harder) "name" is "age" old and is working as "occupation". "He/She - based on gender" prefers "x" operating system:  MacOS = Black, Linux = White, other = Windows.
 
-3. On dicts you can use few methods.
+3. Dictionary methods
 
 Try out: .get(key), .has_key(key), .items(), .keys(), .update(dict_2), .values()
 
