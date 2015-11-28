@@ -20,7 +20,7 @@ Example:
        print('Number:', count)
        number = number + 1
 
-    print "Finished!"
+    print("Finished!")
 
 A loop becomes infinite loop if a condition never becomes FALSE.
 You must use caution when using while loops because of the possibility that this
@@ -66,3 +66,4 @@ Exercises
 1. BMI 5 Final
 ------------------
 Using loops made user to provide data until it is correct data - extend antytrolling mechanism with loops.
+    print("Finished!")
