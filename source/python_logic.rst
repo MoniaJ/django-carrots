@@ -304,14 +304,18 @@ Add sex dependecy to the BMI calcualtor using this table:
  ≥ 27,5                     obesity
 =====================   ==================
 
+
+
+
 =====================   ==================
    BMI                    Men
 =====================   ==================
  < 19.99                    underweight
- 20 – 24,99            normal weight
+ 20 – 24,99               normal weight
  25,0 – 29,99               overweight
  ≥ 30,0                     obesity
 =====================   ==================
+
 
 Summary
 =======
