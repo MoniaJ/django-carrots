@@ -140,9 +140,9 @@ You can update single or multiple elements of lists by giving the slice on the l
 
 
     >>> list = ['physics', 'chemistry', 1997, 2000]
-    >>> print list[2]
+    >>> print(list[2])
     >>> list[2] = 2001
-    >>> print list[2]
+    >>> print(list[2])
 
     >>> list_2 = ['a', 'b']
     >>> list_2.append('c')
@@ -155,9 +155,9 @@ Delete List Elements
 To remove a list element, you can use either the del statement if you know exactly which element(s) you are deleting or the remove() method if you do not know. For example −
 
     >>> list1 = ['physics', 'chemistry', 1997, 2000]
-    >>> print list1
+    >>> print(list1)
     >>> del list1[2]
-    >>> print list1
+    >>> print(list1)
 
 
 Dictionary
