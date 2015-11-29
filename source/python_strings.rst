@@ -164,8 +164,26 @@ Aligning towards the centre is an additional exercise for you :).
 Formatting more Pythonic way
 ----------------------------------------
 
+
+String Slicing
+----------------------------------------
+
+
+Try it out:
+>>> text = “ala ma kota”
+>>> text[0]							    # string[int]
+>>> text[2:]							# string[int:]
+>>> text[:5]							# string[:int]
+>>> text[3:7]							# string[int:int]
+>>> text[::2]							# stirng[::int]
+>>> text[::-1]							# stirng[::int]
+
+Always remember computer counts from 0.
+
+
+
 Methods
-=======
+----------------------------------------
 
 With string there is a lot of methods implemented already.
 
@@ -245,7 +263,9 @@ Given your wight is 80kg and you are 1.8m tall, your BMI is 22 point so keep it 
 -------------------
 
 Using BMI calculator form above task add antytrolling mechanism that prevents trolls from:
-1. inputing
+1. inputing text in weight or height questions
+2. K/M and k/m should mean the same in sex.
+3. Diffrent input then k/m (or other expected) in sex.
 
 
 Summary

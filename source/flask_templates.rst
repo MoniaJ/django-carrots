@@ -13,8 +13,6 @@ An easy option to output a nice and big heading would be to change our view func
 .. code-block:: python
 
 
-    from app import app
-
     @app.route('/')
     @app.route('/index')
     def index():
@@ -64,6 +62,7 @@ from flask import render_template
 
 .. code-block:: python
 
+    from flask import render_template
 
     @app.route('/')
     @app.route('/index')
@@ -108,6 +107,8 @@ Lets thing about a blog in that case.
 
 .. code-block:: python
 
+
+    from flask import render_template
 
     @app.route('/')
     @app.route('/index')
