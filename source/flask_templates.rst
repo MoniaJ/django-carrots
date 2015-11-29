@@ -117,12 +117,12 @@ Lets thing about a blog in that case.
         posts = [  # fake array of posts
             {
                 'author': {'nickname': 'John'},
-                'title': 'Beautiful day in Poznan!'
+                'title': 'Beautiful day in Poznan!',
                 'body': 'Very random text about Poznan!'
             },
             {
                 'author': {'nickname': 'Susan'},
-                'title': 'The Avengers movie was so cool!'
+                'title': 'The Avengers movie was so cool!',
                 'body': 'Long random text about the movie!'
             }
         ]
