@@ -44,7 +44,7 @@ Let's write our first form:
 .. code-block:: python
 
 
-    from flask.ext.wtf import Form
+    from wtforms import Form
     from wtforms import StringField, PasswordField
     from wtforms.validators import DataRequired
 
@@ -238,7 +238,7 @@ Instead, the form will be presented back to the user to correct. This is exactly
 .. code-block:: python
 
 
-    from flask.ext.wtf import Form
+    from wtforms import Form
     from wtforms import StringField, PasswordField
     from wtforms.validators import DataRequired
 
